@@ -11,7 +11,6 @@ public class DocumentoCNH extends Documento {
     private Character categoria;
     private Date validade;
 
-
     public DocumentoCNH(){super();}
 
     public DocumentoCNH(String nome, String uf, Date dataNascimento, Integer numeroCNH, Character categoria, Date validade) {

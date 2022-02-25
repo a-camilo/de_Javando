@@ -8,7 +8,7 @@ public class DocumentoCPF extends Documento{
     private SimpleDateFormat SDF = new SimpleDateFormat("dd/MM/yyyy");
     private Integer cpf;
 
-    DocumentoCPF(){super();}
+    public DocumentoCPF(){super();}
 
     public DocumentoCPF(String nome, String uf, Date dataNascimento, Integer cpf) {
         super(nome, uf, dataNascimento);

@@ -46,15 +46,12 @@ public class ProgramDocumento {
                 System.out.print("Informe a validade: ");
                 Date validade = sdf.parse(sc.next());
                 list.add(new DocumentoCNH(nome,uf,new Date(),numeroCNH,categoria,validade));
-
             }
             else {
                 System.out.print("Informe o CPF: ");
                 int cpf = sc.nextInt();
                 list.add(new DocumentoCPF(nome, uf, dataNascimento, cpf));
-
             }
-
         }
         System.out.println();
         System.out.println("Emissão Documentos:");
