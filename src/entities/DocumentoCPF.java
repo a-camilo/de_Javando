@@ -6,16 +6,16 @@ import java.util.Date;
 public class DocumentoCPF extends Documento{
 
     private SimpleDateFormat SDF = new SimpleDateFormat("dd/MM/yyyy");
-    private Integer cpf;
+    private String cpf;
 
     public DocumentoCPF(){super();}
 
-    public DocumentoCPF(String nome, String uf, Date dataNascimento, Integer cpf) {
+    public DocumentoCPF(String nome, String uf, Date dataNascimento, String cpf) {
         super(nome, uf, dataNascimento);
         this.cpf = cpf;
     }
 
-    public Integer getCpf() {
+    public String getCpf() {
         return cpf;
     }
 

@@ -35,21 +35,19 @@ public class ProgramDocumento {
 
             if (Objects.equals(doc, "RG")) {
                 System.out.print("Informe o RG: ");
-                int rg = sc.nextInt();
+                String rg = sc.next();
                 list.add(new DocumentoRg(nome, uf, dataNascimento, rg));
-            }
-            else if(Objects.equals(doc, "CNH")){
+            } else if (Objects.equals(doc, "CNH")) {
                 System.out.print("Informe o número da CNH: ");
-                int numeroCNH= sc.nextInt();
+                String numeroCNH = sc.next();
                 System.out.print("Informe a categoria: ");
                 Character categoria = sc.next().charAt(0);
                 System.out.print("Informe a validade: ");
                 Date validade = sdf.parse(sc.next());
-                list.add(new DocumentoCNH(nome,uf,new Date(),numeroCNH,categoria,validade));
-            }
-            else {
+                list.add(new DocumentoCNH(nome, uf, new Date(), numeroCNH, categoria, validade));
+            } else {
                 System.out.print("Informe o CPF: ");
-                int cpf = sc.nextInt();
+                String cpf = sc.next();
                 list.add(new DocumentoCPF(nome, uf, dataNascimento, cpf));
             }
         }
