@@ -28,6 +28,7 @@ public class DocumentoRg extends Documento {
     @Override
     public String mostraDoc() {
         return "RG emitido: "
+                + "\n"
                 + "Nome: " + getNome()
                 + ", RG: "+ getRg()
                 + ", UF: " + getUf()

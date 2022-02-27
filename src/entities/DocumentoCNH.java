@@ -35,6 +35,7 @@ public class DocumentoCNH extends Documento {
     @Override
     public String mostraDoc() {
         return "CNH emitido: "
+                + "\n"
                 + "Nome: " + getNome()
                 + ", CNH: "+ getNumeroCNH()
                 + ", Categoria: " + getCategoria()

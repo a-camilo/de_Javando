@@ -3,7 +3,7 @@ package entities;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Documento {
+public abstract class Documento {
 
     private static SimpleDateFormat SDF = new SimpleDateFormat("dd/MM/yyyy");
     private String nome;
@@ -31,12 +31,5 @@ public class Documento {
         return dataNascimento;
     }
 
-    public String mostraDoc() {
-        return "Nome: "
-                + nome
-                + ", UF: "
-                + uf
-                + ", Data de Nascimento: "
-                + SDF.format(dataNascimento);
-    }
+    public  abstract String mostraDoc();
 }

@@ -22,6 +22,7 @@ public class DocumentoCPF extends Documento{
     @Override
     public String mostraDoc() {
         return "CPF emitido: "
+                + "\n"
                 + "Nome: " + getNome()
                 + ", CPF: "+ getCpf()
                 + ", UF: " + getUf()
