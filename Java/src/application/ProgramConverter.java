@@ -1,6 +1,5 @@
 package application;
 
-import utils.Calculator;
 import utils.CurrencyConverter;
 
 import java.util.Locale;
