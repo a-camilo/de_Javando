@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/Comparable/Comparable.iml" />
       <module fileurl="file://$PROJECT_DIR$/CursoProgramacao.iml" filepath="$PROJECT_DIR$/CursoProgramacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionDomain/ExceptionDomain.iml" filepath="$PROJECT_DIR$/ExceptionDomain/ExceptionDomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExerciciosDeFixacao/ExerciciosDeFixacao.iml" filepath="$PROJECT_DIR$/ExerciciosDeFixacao/ExerciciosDeFixacao.iml" />
