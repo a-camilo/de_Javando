@@ -1,0 +1,4 @@
+Computer,890.50
+Iphone X,910.00
+Tablet,550.10
+Notebook,1000.00
