@@ -1,13 +1,16 @@
-package entitites;
+package entities;
 
 public class Product {
 
-    private String name;
-    private Double price;
+    public String name;
+    public Double price;
 
     public Product(String name, Double price) {
         this.name = name;
         this.price = price;
+    }
+
+    public Product() {
     }
 
     public String getName() {
@@ -26,24 +29,12 @@ public class Product {
         this.price = price;
     }
 
-    public static boolean staticProductPredicate(Product p){
-        return p.getPrice() >= 100.00;
-    }
-
-    public boolean nonStaticProductPredicate(){
-        return price >= 100.00;
-    }
-
-    public static void staticPriceUpdate(Product p){
-        p.setPrice(p.getPrice() * 1.1);
-    }
-
-    public void nonStaticPriceUpdate(){
-       price = price * 1.1;
+    public static String staticUpperCaseName(Product p){
+        return p.getName().toUpperCase();
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return "Product: "
                 + "Name: " + name
                 + ", price $ " + price;

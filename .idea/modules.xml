@@ -7,10 +7,14 @@
       <module fileurl="file://$PROJECT_DIR$/ExceptionDomain/ExceptionDomain.iml" filepath="$PROJECT_DIR$/ExceptionDomain/ExceptionDomain.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExerciciosDeFixacao/ExerciciosDeFixacao.iml" filepath="$PROJECT_DIR$/ExerciciosDeFixacao/ExerciciosDeFixacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExpressoesLambda/ExpressoesLambda.iml" filepath="$PROJECT_DIR$/ExpressoesLambda/ExpressoesLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Function/Function.iml" filepath="$PROJECT_DIR$/Function/Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionComParametros/FunctionComParametros.iml" filepath="$PROJECT_DIR$/FunctionComParametros/FunctionComParametros.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Java.iml" filepath="$PROJECT_DIR$/Java/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pipeline/Pipeline.iml" filepath="$PROJECT_DIR$/Pipeline/Pipeline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stream/Stream.iml" filepath="$PROJECT_DIR$/Stream/Stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/TrabalhandoComArquivos/TrabalhandoComArquivos.iml" filepath="$PROJECT_DIR$/TrabalhandoComArquivos/TrabalhandoComArquivos.iml" />
     </modules>
   </component>
